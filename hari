@@ -1,0 +1,8 @@
+welcome@@@
+Here we list some of the most important differences between Git and SVN:
+
+When it comes to handling large files, Git is not preferred but SVN can handle multiple projects in the same repository
+Git does not have ‘commits’ across multiple branches but SVN lets you create the folders on any location in the repository layout
+You cannot commit changes in Git but SVN lets you create a tag as a branch and you can create multiple revisions under a root tag
+18. How to resolve a conflict in Git?
+If you want to resolve a conflict in Git then you need to edit the files for fixing the conflicting changes and then you can run “git add” to add the resolved files and after that you can run the ‘git commit’ for committing the repaired merge.
